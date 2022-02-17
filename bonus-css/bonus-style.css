@@ -1,0 +1,182 @@
+/* comandi generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/********header*********/
+
+header{
+    width: 100%;
+    line-height: 170px;
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+    margin: 2rem auto;
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+header:hover, footer:hover{
+    background-color: firebrick;
+    color: cornsilk;
+}
+
+
+/********main*********/
+.site-main{
+    margin-left:20% ;
+    margin-right: 20%;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    margin: 2.5rem auto;
+    padding: 50px;
+    position: relative;
+    color: white;
+    font-size: small;
+    display: inline-block;
+}
+
+/* immagini dello shop */
+
+.img-levis{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+
+.img-guess{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+.img-zucchero{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+.img-levis2{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+.img-maya{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+
+.img-espirit{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+
+/* /.immagini */
+
+/* hover delle immagini */
+
+.img-levis:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.img-guess:hover{
+    background-image: url(../img/2b.webp);
+}
+
+.img-zucchero:hover{
+    background-image: url(../img/3b.webp);
+}
+
+.img-levis2:hover{
+    background-image: url(../img/4b.webp);
+}
+
+.img-maya:hover{
+    background-image: url(../img/5b.webp);
+}
+
+.img-espirit:hover{
+    background-image: url(../img/6b.webp);
+}
+
+/* /hover img */
+
+
+
+.heart{
+    color: black;
+    position:absolute;
+    right: 0;
+    top: 2.5rem;
+    font-size: 1.5rem;
+    padding: 6px 10px;
+    background-color: white;
+}
+
+.heart:hover{
+    color:firebrick;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.discount{
+    background-color: rgb(201, 22, 22);
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+    padding: 3px;
+}
+
+.aggettivi{
+    background-color: darkgreen;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 0.5rem;
+    padding: 3PX;
+}
+
+.description{
+    margin-top:0;
+    width: 300px;
+    color: black;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+
+}
+
+.new-price{
+    color: red;
+    font-size: small;
+}
+
+.old-price{
+    font-size: small;
+    text-decoration: line-through;
+}
+
+.aggettivi.solo{
+    position: absolute;
+    left: 0;
+}
+
+
+/********footer*********/
+
+footer{
+    padding: 20px;
+    color: brown;
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
