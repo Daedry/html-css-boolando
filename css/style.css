@@ -18,7 +18,109 @@ header{
 
 
 /********main*********/
+.site-main{
+    margin-left:20% ;
+    margin-right: 20%;
+}
 
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 50px auto;
+    padding: 50px;
+    position: relative;
+    color: white;
+    font-size: small;
+    display: inline-block;
+}
+
+/* immagini dello shop */
+
+.img-levis{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+
+.img-guess{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+.img-zucchero{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+.img-levis2{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+.img-maya{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+
+.img-espirit{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+
+/* /.immagini */
+
+
+.heart{
+    color: black;
+    position:absolute;
+    right: 0;
+    top: 2.5rem;
+    font-size: 1.5rem;
+    padding: 6px 10px;
+    background-color: white;
+}
+
+.discount{
+    background-color: rgb(201, 22, 22);
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+    padding: 3px;
+}
+
+.aggettivi{
+    background-color: darkgreen;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 0.5rem;
+    padding: 3PX;
+}
+
+.description{
+    margin-top:0;
+    width: 300px;
+    color: black;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+
+}
+
+.new-price{
+    color: red;
+    font-size: small;
+}
+
+.old-price{
+    font-size: small;
+    text-decoration: line-through;
+}
+
+.aggettivi.solo{
+    position: absolute;
+    left: 0;
+}
 
 
 /********footer*********/
